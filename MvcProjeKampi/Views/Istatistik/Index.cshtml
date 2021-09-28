@@ -1,0 +1,38 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+
+
+<div class="rounded float-start">
+   
+</div>
+
+<div id="dis_bolme">
+
+    <div class="ic_bolme" style="background-color:#fedb46"><h1>@ViewBag.deger1</h1> </div>
+    <div class="ic_bolme" style="background-color:aquamarine"><h1>@ViewBag.deger2</h1> </div>
+    <div class="ic_bolme" style="background-color:#ad75c0"><h1>@ViewBag.deger3</h1></div>
+    @*<div class="ic_bolme" style="background-color:#ad75c0"><h1>@ViewBag.deger4</h1></div>*@
+    <div class="ic_bolme" style="background-color:#76cee8"><h1>@ViewBag.deger5</h1></div>
+
+
+</div>
+<style>
+
+    .ic_bolme {
+        float: left;
+        width: 250px;
+        height: 250px;
+        border: #CCC solid 1px;
+        background-color: #F00;
+        margin-right: 10px;
+        margin-left: 4px;
+    }
+        .ic_bolme > h1 {
+            margin-top: 80px;
+            margin-left: 120px
+        }
+</style>
